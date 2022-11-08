@@ -3,6 +3,7 @@ import 'package:app04_componentes/pages/avatar_page.dart';
 import 'package:app04_componentes/pages/card_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:app04_componentes/pages/card_page_2.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -69,7 +70,7 @@ class HomePage extends StatelessWidget {
               ),
               ItemComponentWidget(
                 title: "Card 2",
-                toPage: CardPage(),
+                toPage: card_page_2(),
               ),
             ],
           ),
